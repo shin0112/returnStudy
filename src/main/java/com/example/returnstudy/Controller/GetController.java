@@ -22,11 +22,11 @@ public class GetController {
     }
 
     // http://localhost:8080/return/member/2021105614
-    @GetMapping(value = "/member/{studentId}")
-    public Integer getStudentId(@PathVariable(value = "studentId", required = false) Integer studentId) {
-        System.out.println(studentId);
-        return studentId;
-    }
+//    @GetMapping(value = "/member/{studentId}")
+//    public Integer getStudentId(@PathVariable(value = "studentId", required = false) Integer studentId) {
+//        System.out.println(studentId);
+//        return studentId;
+//    }
 
     // http://localhost:8080/return/member/2021105614/name/신주은
     @GetMapping(value = "/member/{studentId}/name/{name}")
