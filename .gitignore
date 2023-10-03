@@ -35,8 +35,4 @@ out/
 
 ### VS Code ###
 .vscode/
-
-### Swagger ###
-!**/com.example.returnstudy.Config/SwaggerConfig
-!**/com.example.returnstudy.Controller/ExampleController
-
+git
